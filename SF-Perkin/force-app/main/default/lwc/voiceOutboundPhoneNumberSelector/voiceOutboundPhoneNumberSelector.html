@@ -1,0 +1,14 @@
+<template>
+    <template if:true={saving}>
+        <lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+    </template>
+    <div class="slds-m-around_small">
+        <lightning-combobox
+            name="phone"
+            label="Outbound Phone Number"
+            placeholder="Select Phone Number"
+            value={value}
+            options={options}
+            onchange={handleChange} ></lightning-combobox>
+    </div>
+</template>
