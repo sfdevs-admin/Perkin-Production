@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CFQ_NFQ_Stage_Zero_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Created_by_LDR__c</columns>
+    <columns>Age_from_Created_Date__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Zero Stage</value>
+    </filters>
+    <filters>
+        <field>Test_Record__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>My Stage Zero Opportunities - CFY</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

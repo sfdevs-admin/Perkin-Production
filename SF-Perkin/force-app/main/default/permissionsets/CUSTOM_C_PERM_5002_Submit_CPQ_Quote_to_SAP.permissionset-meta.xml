@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows non-customer care users to submit a CPQ quote to SAP</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM_5002: Submit CPQ Quote to SAP</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_5002_Submit_CPQ_Quote_to_SAP</name>
+    </customPermissions>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Edit fields that are read only due to page layouts or field-level security. (EditReadonlyFields)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Edit Read Only Fields 5000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditReadonlyFields</name>
+    </userPermissions>
+</PermissionSet>

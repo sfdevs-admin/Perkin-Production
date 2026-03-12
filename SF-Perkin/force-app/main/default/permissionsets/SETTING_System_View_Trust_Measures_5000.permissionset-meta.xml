@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View trust measures in your org. (ViewTrustMeasures)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View Trust Measures 5000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewTrustMeasures</name>
+    </userPermissions>
+</PermissionSet>

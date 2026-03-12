@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows users of teams working with Legal to manage Email Opt Out on Leads and Contacts</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MODULE: Email Opt Out 3000: Leads &amp; Contacts</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.Contact_Communication_Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Contact.HasOptedOutOfEmail</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.HasOptedOutOfEmail</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

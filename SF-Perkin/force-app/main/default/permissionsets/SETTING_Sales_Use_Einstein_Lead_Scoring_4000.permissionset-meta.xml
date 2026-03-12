@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>See lead scores showing how well your leads match your company’s conversion patterns and which lead attributes affect each score most. (LeadScoreUser)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Use Einstein Lead Scoring 4000x1</label>
+</PermissionSet>

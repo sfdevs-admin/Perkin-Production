@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Unsupported. Use the page layout editor to customize which actions show up in Salesforce and in the Salesforce mobile app. (UseWebLink)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Allow Access to Customized Actions 5000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseWebLink</name>
+    </userPermissions>
+</PermissionSet>

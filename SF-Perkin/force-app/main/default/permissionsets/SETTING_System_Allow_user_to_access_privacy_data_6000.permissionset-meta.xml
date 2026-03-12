@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow user to access privacy data. (PrivacyDataAccess)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Allow user to access privacy data 6000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>PrivacyDataAccess</name>
+    </userPermissions>
+</PermissionSet>

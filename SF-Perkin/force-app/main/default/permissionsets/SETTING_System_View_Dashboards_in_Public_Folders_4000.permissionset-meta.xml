@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View and access dashboards in public folders, which does not include others’ personal folders. (ViewPublicDashboards)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View Dashboards in Public Folders 4000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewPublicDashboards</name>
+    </userPermissions>
+</PermissionSet>

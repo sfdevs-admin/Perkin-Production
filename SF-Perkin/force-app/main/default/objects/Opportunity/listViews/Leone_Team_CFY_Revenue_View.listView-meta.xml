@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Leone_Team_CFY_Revenue_View</fullName>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>New_Customer__c</columns>
+    <columns>Amount_Won__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>Revenue_Rec_Date__c</columns>
+    <columns>Revenue_Rec_Date_Close_Date__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Age_from_Created_Date__c</columns>
+    <columns>OPPORTUNITY.FORECAST_CATEGORY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Global_Region__c</field>
+        <operation>equals</operation>
+        <value>AMERICAS</value>
+    </filters>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>equals</operation>
+        <value>LAST_FISCAL_YEAR</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Closed Won</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>contains</operation>
+        <value>AS-NAM-East Inorganic Sales Team,AS-NAM-Caribbean-Sales Team,AS-NAM-Canada-East-Sales Team</value>
+    </filters>
+    <label>Leone Team - CFY Revenue View</label>
+    <sharedTo>
+        <territory>Model2.AS_NAM_East_Inorganic_Sales_Team</territory>
+    </sharedTo>
+</ListView>

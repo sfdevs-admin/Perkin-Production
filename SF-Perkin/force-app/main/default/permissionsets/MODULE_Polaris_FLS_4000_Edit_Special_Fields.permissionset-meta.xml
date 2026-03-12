@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is a special permission set used to give FLS EDIT access. (Source: CMC Story #S-697006)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MODULE: Polaris FLS 4000: Edit Special Fields</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.Owned_by_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Interaction__c.Owned_by_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Owned_by_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Product2.Owned_by_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Owned_by_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

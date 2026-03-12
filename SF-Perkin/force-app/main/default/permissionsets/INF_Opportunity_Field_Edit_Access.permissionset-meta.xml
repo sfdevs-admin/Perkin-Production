@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Edit access to INF Opportunity page layout field. Research Analytics and Related Market Analytics.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>INF Opportunity Field Edit Access</label>
+    <license>Salesforce</license>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Booked_Date_INF__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.INF_Analytics_AVS__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Related_Market_Analytics__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

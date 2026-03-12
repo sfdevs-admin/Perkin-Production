@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is used to provide edit access for Account Local fields for User&#39;s with PKICountry__c = China</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Account 4000: Local Language Fields Edit</label>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.NameLocal</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.PKI_ShippingCityLocal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.PKI_ShippingCountryCodeLocal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.PKI_ShippingPostalCodeLocal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.PKI_ShippingStateLocal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Account.PKI_ShippingStreetLocal__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

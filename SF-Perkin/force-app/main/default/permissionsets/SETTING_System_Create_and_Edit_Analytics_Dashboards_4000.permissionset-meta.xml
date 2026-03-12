@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create and edit Analytics dashboards. (InsightsAppDashboardEditor; InsightsAppUser)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Create and Edit Analytics Dashboards 4000x2</label>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View the record names in lookup fields regardless of sharing settings. Lookup fields include system fields, such as Created By and Last Modified By. (ViewAllForeignKeyNames)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View All Lookup Record Names 4000x1</label>
+</PermissionSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>IT SFDC Team developers performing post deployment steps, debugging, or deep analysis functions</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PERSONA: 7000: SFDC Admin Developer</label>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>PricebookEntry.BD_Integration_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

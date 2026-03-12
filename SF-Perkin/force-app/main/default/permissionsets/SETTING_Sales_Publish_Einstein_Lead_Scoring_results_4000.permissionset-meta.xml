@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, read, write, and delete Einstein Lead Scoring results on lead records.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Publish Einstein Lead Scoring results 4000x1</label>
+</PermissionSet>

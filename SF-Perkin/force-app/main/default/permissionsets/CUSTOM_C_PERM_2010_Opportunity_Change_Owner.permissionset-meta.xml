@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows user to change the owner of Opp Records using CUSTOM: C.PERM_2010: Opportunity - Change Owner</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM_2010: Opportunity - Change Owner</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_2010_Opportunity_Change_Owner</name>
+    </customPermissions>
+</PermissionSet>

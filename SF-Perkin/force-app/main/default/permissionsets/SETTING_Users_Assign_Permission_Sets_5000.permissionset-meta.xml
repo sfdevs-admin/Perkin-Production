@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Assign permission sets to users. (AssignPermissionSets)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Users): Assign Permission Sets 5000x1</label>
+</PermissionSet>

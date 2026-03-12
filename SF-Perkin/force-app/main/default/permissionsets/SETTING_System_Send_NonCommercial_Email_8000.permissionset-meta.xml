@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>System: Send non-commercial end-user emails to contacts, leads, and person accounts who opt out of email or who choose Don&#39;t Market in data privacy records. This permission doesn&#39;t apply to the Cases email action, Lightning Experience list email, or Sales</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Send Non-Commercial Email: 8000x3</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTask</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EmailSingle</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>TransactionalEmailSend</name>
+    </userPermissions>
+</PermissionSet>

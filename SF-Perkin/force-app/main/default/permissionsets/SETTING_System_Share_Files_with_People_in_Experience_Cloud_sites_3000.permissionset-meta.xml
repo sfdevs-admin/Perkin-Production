@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Share files in Experience Cloud sites by changing their sharing settings or posting them to profiles.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Share Files with People in Experience Cloud sites 3000</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ShareFilesWithNetworks</name>
+    </userPermissions>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows user to edit historical data using C.PERM_9000: SIOP Edit Historical Data</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MODULE: SIOP: 9000: Edit Historical Data</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_9000_SIOP_Edit_Historical_Data</name>
+    </customPermissions>
+</PermissionSet>

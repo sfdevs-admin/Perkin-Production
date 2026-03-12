@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is using C.PERM: 8000 Revert Opp Stage so the users can move a opp from closed/abandoned to another stage inside V.RULE_OPP_074</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 8000: Revert Opp Stage</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_8000_Revert_Opp_Stage</name>
+    </customPermissions>
+</PermissionSet>

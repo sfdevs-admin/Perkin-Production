@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Required to create an Einstein Discovery story from a dataset with a predicate (StoryOnDSWithPredicate; UseSmartDataDiscovery)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Ignore predicate when creating story from dataset 4000x2</label>
+</PermissionSet>

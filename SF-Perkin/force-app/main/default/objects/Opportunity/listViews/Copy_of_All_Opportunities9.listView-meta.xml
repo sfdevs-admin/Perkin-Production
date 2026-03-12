@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_All_Opportunities9</fullName>
+    <columns>Opportunity_Owner__c</columns>
+    <columns>TERR2_NAME</columns>
+    <columns>Product_Line_Name__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>SAP_Order__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>Date_Entered_SAP__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>SAP_Estimated_Delivery_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Revenue_Rec_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <filters>
+        <field>TERR2_NAME</field>
+        <operation>contains</operation>
+        <value>Inorganic</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Stage 3 - Develop,Stage 5 - Negotiation,Stage 4 - Prove,Stage 4 - Proposal Submitted</value>
+    </filters>
+    <filters>
+        <field>Owned_by_Company__c</field>
+        <operation>equals</operation>
+        <value>AES</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>Eurofins</value>
+    </filters>
+    <label>Eurofins Opps</label>
+    <sharedTo>
+        <allInternalUsers />
+    </sharedTo>
+</ListView>

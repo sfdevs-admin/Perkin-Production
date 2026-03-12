@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, edit, and delete dashboards through the drag-and-drop dashboard builder interface. (CanUseNewDashboardBuilder)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Drag-and-Drop Dashboard Builder 4000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanUseNewDashboardBuilder</name>
+    </userPermissions>
+</PermissionSet>

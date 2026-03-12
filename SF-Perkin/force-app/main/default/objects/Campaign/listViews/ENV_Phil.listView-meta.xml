@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ENV_Phil</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>Vendor_Name__c</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.ACTUAL_COST</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>Lead_Conversion_Rate__c</columns>
+    <columns>CAMPAIGN.TOT_NUM_RESPONSES</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>Opportunity_Conversion_Rate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.START_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2020</value>
+    </filters>
+    <filters>
+        <field>Vendor_Name__c</field>
+        <operation>contains</operation>
+        <value>technology networks</value>
+    </filters>
+    <label>ENV - Phil</label>
+</ListView>

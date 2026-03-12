@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Apply release updates and enable or disable test runs. (ManageReleaseUpdates)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Manage Release Updates 5000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageReleaseUpdates</name>
+    </userPermissions>
+</PermissionSet>

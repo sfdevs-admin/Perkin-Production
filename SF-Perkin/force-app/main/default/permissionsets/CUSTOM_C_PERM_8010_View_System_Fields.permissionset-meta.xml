@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>uses C.PERM_8010: View System Fields to allow users to see system fields on Dynamic Page Layouts. Typically Admins and power users</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 8010: View System Fields</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_8010_View_System_Fields</name>
+    </customPermissions>
+</PermissionSet>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>App for the Default PKI Sales Experience using Lightning</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>APP: PKI Sales 1000</label>
+    <applicationVisibilities>
+        <application>PKI_Sales</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>SBQQ__Localization__c.External_ID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.PKI_Americas_SPI</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

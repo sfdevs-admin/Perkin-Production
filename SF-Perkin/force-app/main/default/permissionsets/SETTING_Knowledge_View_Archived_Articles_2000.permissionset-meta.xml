@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Let users view archived articles. (ViewArchivedArticles)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Knowledge): View Archived Articles 2000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewArchivedArticles</name>
+    </userPermissions>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This permission will allow use to see case of &quot;BioDiscovery_Technical_Support&quot; record type and they would be able to change record type to &quot;BioDiscovery_Technical_Support&quot; record type</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Case 1000: R.TYPE: BioDiscovery Technical Support</label>
+    <recordTypeVisibilities>
+        <recordType>Case.BioDiscoveryTechnicalSupport</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

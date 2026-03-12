@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Subscribe to Tableau CRM lenses and dashboard widgets to send scheduled status updates by email, or subscribe to Tableau CRM dashboards in Slack. For subscribing to tables, the Download Analytics Data permission is also required. Your organization’s data</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Subscribe to Tableau CRM Assets 2000x1</label>
+</PermissionSet>

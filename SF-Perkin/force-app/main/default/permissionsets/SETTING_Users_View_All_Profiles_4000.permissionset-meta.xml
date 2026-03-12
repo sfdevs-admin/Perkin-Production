@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View all user profiles, regardless of profile filtering setting.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Users): View All Profiles 4000x1</label>
+</PermissionSet>

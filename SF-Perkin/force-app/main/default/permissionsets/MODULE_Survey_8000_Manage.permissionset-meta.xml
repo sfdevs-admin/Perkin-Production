@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows users to manage surveys</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MODULE: Survey: 8000: Manage</label>
+    <license>Salesforce</license>
+    <tabSettings>
+        <tab>Assets</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

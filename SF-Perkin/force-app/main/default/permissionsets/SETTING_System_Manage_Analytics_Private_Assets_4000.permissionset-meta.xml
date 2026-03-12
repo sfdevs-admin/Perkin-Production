@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Delete Analytics datasets in other users&#39; My Private Apps. (WaveManagePrivateAssetsUser)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Manage Analytics Private Assets 4000x1</label>
+</PermissionSet>

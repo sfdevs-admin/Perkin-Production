@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Account 6000: Manage Account Type Edit</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Managed_Account_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.PKI_Test_Record__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Skip Parts Order approvals for some of the APAC FSE&#39;s</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SVMX Skip Parts Order Approval</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>SVMX_Skip_Parts_Order_Approval</name>
+    </customPermissions>
+</PermissionSet>

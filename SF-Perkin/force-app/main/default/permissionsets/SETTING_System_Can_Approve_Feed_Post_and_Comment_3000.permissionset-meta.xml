@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lets users control the visibility of content to other users by updating the status of a feed item or comment from pending review to published or from published to pending review. (CanApproveFeedPost)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Can Approve Feed Post and Comment 3000x1</label>
+</PermissionSet>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 9610: Bulk Transfer - Reassign as Any User</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_9610_Bulk_Transfer_Reassign_as_Any_User</name>
+    </customPermissions>
+</PermissionSet>

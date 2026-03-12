@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Deploy and Manage Einstein Discovery predictions and models. (ManageSmartDataDiscoveryModel; UseSmartDataDiscovery)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Can Deploy and Manage Einstein Discovery predictions 5000x2</label>
+</PermissionSet>

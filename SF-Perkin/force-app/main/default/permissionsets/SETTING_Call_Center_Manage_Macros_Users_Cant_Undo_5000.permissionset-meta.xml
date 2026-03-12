@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, update, and run macros that include irreversible instructions. (SubmitMacrosAllowed)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Call Center): Manage Macros Users Can&#39;t Undo 5000x1</label>
+</PermissionSet>

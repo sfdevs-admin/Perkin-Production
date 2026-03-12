@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Can view shared Analytics assets from within Communities. (ViewPrivateStaticResources)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View Private Static Resources 3000x1</label>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use Lightning Login for Salesforce logins, which allows authentication with Salesforce Authenticator instead of a password. Users can individually enroll or cancel their enrollment in Lightning Login. (AllowLightningLogin)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Lightning Login User 2000x1</label>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows a user to connect this organization to an Environment Hub. (ConnectOrgToEnvironmentHub)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Connect Organization to Environment Hub 7000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ConnectOrgToEnvironmentHub</name>
+    </userPermissions>
+</PermissionSet>

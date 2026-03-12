@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is used for Customer Care when an email comes into incorrect Inbox and is then transferred to another queue, allowing the rep to update the External Email Inbox to align with the intended Service Address. Not all reps will be permitted this access.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Case 3000: External Email Inbox (edit)</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Case.External_Email_Inbox__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>System: Trend the data of a report with an Analytics dataflow. (WaveTrendReports)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Trend Report Data in Analytics: 8000x1</label>
+</PermissionSet>

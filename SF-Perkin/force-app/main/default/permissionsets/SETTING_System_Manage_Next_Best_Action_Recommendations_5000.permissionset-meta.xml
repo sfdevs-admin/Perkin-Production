@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, update, and delete recommendations. Recommendations represent offers and actions that are recommended to users and customers as part of Next Best Action functionality. They are used with action strategies. (ManagePropositions)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Manage Next Best Action Recommendations 5000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManagePropositions</name>
+    </userPermissions>
+</PermissionSet>

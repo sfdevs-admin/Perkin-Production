@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, edit, and deactivate users, and manage security settings, including profiles and roles. (AssignPermissionSets; DelegatedTwoFactor; ManageInternalUsers; ManageIpAddresses; ManageLoginAccessPolicies; ManagePasswordPolicies; ManageProfilesets; Manage</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Users): Manage Users 5000x14</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewAllUsers</name>
+    </userPermissions>
+</PermissionSet>

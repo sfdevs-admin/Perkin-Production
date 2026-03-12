@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Execute unlimited number of action strategies. (HasUnlimitedNBAExecutions)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Unlimited Next Best Action Strategy Executions 2000x1</label>
+</PermissionSet>

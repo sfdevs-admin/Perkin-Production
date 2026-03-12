@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>To run the interaction assignment rule at the time of interaction creation.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 2520: Run Interaction Assignment Rule by Eloqua</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_2520_Run_Interaction_Assignment_Rule_by_Eloqua</name>
+    </customPermissions>
+</PermissionSet>

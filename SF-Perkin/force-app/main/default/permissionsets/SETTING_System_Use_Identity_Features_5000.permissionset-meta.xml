@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives the user access to Identity features such as App Launcher. (IdentityEnabled)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Use Identity Features 5000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>IdentityEnabled</name>
+    </userPermissions>
+</PermissionSet>

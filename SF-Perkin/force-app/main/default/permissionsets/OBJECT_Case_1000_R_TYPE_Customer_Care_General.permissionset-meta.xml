@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Case 1000: R.TYPE: Customer Care - General</label>
+    <license>Salesforce</license>
+    <recordTypeVisibilities>
+        <recordType>Case.Customer_Care_General</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

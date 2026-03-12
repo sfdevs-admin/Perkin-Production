@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use Salesforce Anywhere in Lightning Experience (IsotopeLEX)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Salesforce Anywhere in Lightning Experience 1000x1</label>
+</PermissionSet>

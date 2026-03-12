@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create and edit sandbox and sandbox templates. (ManageSandboxes)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Users): Manage Sandboxes 7000x1</label>
+</PermissionSet>

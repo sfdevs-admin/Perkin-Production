@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Let agents view and act on articles recommended by Einstein.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Setting): View and Act on Einstein Article Recommendations 1000</label>
+</PermissionSet>

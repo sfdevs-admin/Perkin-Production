@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Installed APP that allows the moving of Opps based on Filter Criteria or list views. Used by Data Teams</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>APP: Mass Reassign Opportunities 8000</label>
+</PermissionSet>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is providing visibility to &#39;Grow Information Section&#39; on the interaction using C.PERM_2500:Interaction - Grow Information Custom Permission.
+Note: Only for AES team.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM_2500:Interaction - Grow Information</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_2500_Interaction_Grow_Information</name>
+    </customPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Interaction__c.Owned_by_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

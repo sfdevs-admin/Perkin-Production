@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow user to share internal Knowledge articles externally (ShareInternalArticles)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Knowledge): Share internal Knowledge articles externally 4000x1</label>
+</PermissionSet>

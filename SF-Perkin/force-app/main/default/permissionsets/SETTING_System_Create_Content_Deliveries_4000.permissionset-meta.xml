@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create content delivery links to share files that aren&#39;t managed by a library. To let a user create content deliveries for files in a library, enable Deliver Content for that user in the library. (DistributeFromPersWksp)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Create Content Deliveries 4000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DistributeFromPersWksp</name>
+    </userPermissions>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, import, edit, and delete a call center configuration. (ManageCallCenters; ViewRoles; ViewSetup)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Call Center): Manage Call Centers 5000x3</label>
+</PermissionSet>

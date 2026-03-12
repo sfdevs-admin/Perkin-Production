@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Users needing advanced functions and have more experience with these advanced features</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PERSONA: 2000: Advanced User</label>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>PricebookEntry.BD_Integration_Id__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

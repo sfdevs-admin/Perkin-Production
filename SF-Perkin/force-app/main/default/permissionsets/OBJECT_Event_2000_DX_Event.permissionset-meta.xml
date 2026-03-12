@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Event 2000: DX Event</label>
+    <recordTypeVisibilities>
+        <recordType>Event.Dx_Events</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

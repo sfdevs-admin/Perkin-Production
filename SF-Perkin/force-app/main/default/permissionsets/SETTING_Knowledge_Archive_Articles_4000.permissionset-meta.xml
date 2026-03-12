@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow user to archive Knowledge articles. (ArchiveArticles)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Knowledge): Archive Articles 4000x1</label>
+</PermissionSet>

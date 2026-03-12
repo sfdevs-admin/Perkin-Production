@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>dashboardName</name>
+                    <value>ImpPwnaxJSlqCRSCeVgNgbdEPFmVBq</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideOnError</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>top</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>bottomLeft</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>bottomRight</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>decorate</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p&gt;&lt;strong style=&quot;color: rgb(87, 113, 218); font-size: 16px;&quot;&gt;&lt;u&gt;Important Links&lt;/u&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://pki--pkiuat.sandbox.lightning.force.com/lightning/n/ctu__Clone_This_User_lwc&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; font-family: sans-serif;&quot;&gt;Clone This User&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://perkinelmer.sharepoint.com/teams/GLBL_IT_PortfolioManagement/Shared%20Documents/Forms/AllItems.aspx?id=%2Fteams%2FGLBL%5FIT%5FPortfolioManagement%2FShared%20Documents%2F8%2E%20Program%20Management%2FApplications%2F4%20Projects%2FSalesforce%20Backlog%2FProject%20Documents&amp;amp;viewid=9a4a5308%2D423b%2D4f02%2Da4bd%2D04f5f1c0136b&amp;amp;sharingv2=true&amp;amp;fromShare=true&amp;amp;at=9&amp;amp;CID=0912ac66%2Dfa9d%2D4c4f%2Daa74%2Dd0db7ffc33b1&amp;amp;FolderCTID=0x012000CF6287A78A98604CB353BEFFC51F6222&amp;amp;ovuser=f9f27055%2Dd80d%2D47df%2Dabb2%2Dfa20cc88e4e1%2CLalit%2EShinde%40PerkinElmer%2Ecom&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; font-family: sans-serif;&quot;&gt;Training Docs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://perkinelmer.sharepoint.com/:x:/t/GLBL_IT_Salesforce_Operations-I/IQCAFTDrle4cQpEFJAj3mWmIAe0RzjolyYrM960rhhlsySc?e=HEeclZ&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; font-family: sans-serif;&quot;&gt;Sprint Planning&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://perkinelmer.sharepoint.com/teams/GLBL_IT_Salesforce_Operations-I/Lists/Test%201/AllItems.aspx?viewid=e8993c6c-c914-475b-90df-8849a1a63507&amp;amp;ovuser=f9f27055-d80d-47df-abb2-fa20cc88e4e1%2CLalit.Shinde%40PerkinElmer.com&amp;amp;env=WebViewList&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; font-family: sans-serif;&quot;&gt;Enhancement Backlogs&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://perkinelmer.service-now.com/now/nav/ui/classic/params/target/change_request_list.do%3Fsysparm_userpref_module%3D548b3c923b8e06d0d785087aa5e45a17%26sysparm_query%3Dactive%253Dtrue%255Eassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255EEQ%26sysparm_clear_stack%3Dtrue&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; font-family: sans-serif;&quot;&gt;My Change Requests&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://perkinelmer.service-now.com/now/nav/ui/classic/params/target/incident_list.do%3Fsysparm_userpref_module%3D283b6424c611228501ffeaea1e115220%26sysparm_query%3Dactive%253Dtrue%255Eassigned_to%253Djavascript%253AgetMyAssignments%2528%2529%255EEQ%26active%3Dtrue%255Eassigned_to%253Djavascript%253Ags.user_id%2528%2529%26sysparm_clear_stack%3Dtrue&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; font-family: sans-serif;&quot;&gt;My Incidents&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://perkinelmer.service-now.com/now/nav/ui/classic/params/target/sc_task_list.do%3Fsysparm_userpref_module%3D1fe8b45e3b4e06d0d785087aa5e45a59%26sysparm_query%3Dactive%253Dtrue%255Eassigned_toDYNAMIC90d1921e5f510100a9ad2572f2b477fe%255EEQ%26sysparm_clear_stack%3Dtrue&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; font-family: sans-serif;&quot;&gt;My Service Requests&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>sidebar</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Admin Home</masterLabel>
+    <template>
+        <name>home:desktopTemplate</name>
+    </template>
+    <type>HomePage</type>
+</FlexiPage>

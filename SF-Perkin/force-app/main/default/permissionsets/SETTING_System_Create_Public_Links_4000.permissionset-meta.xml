@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Let users create links to share files externally. Unlike content deliveries, public links can&#39;t be password protected. To let a user create links to files in a library, enable Deliver Content for that user in the library. (ChatterFileLink)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Create Public Links 4000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ChatterFileLink</name>
+    </userPermissions>
+</PermissionSet>

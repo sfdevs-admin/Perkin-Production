@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View any user&#39;s forecast, regardless of the forecast role hierarchy. The user can also view opportunities within the Forecasts tab regardless of sharing settings. (ViewAllForecasts)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): View All Forecasts 4000x1</label>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Opportunity</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+</PermissionSet>

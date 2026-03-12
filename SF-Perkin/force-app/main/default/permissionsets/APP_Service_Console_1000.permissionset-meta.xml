@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Service Console (Lightning)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>APP: Service Console 1000</label>
+    <applicationVisibilities>
+        <application>standard__LightningService</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+</PermissionSet>

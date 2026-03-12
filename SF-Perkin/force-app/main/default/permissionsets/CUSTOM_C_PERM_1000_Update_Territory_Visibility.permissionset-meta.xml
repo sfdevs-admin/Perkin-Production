@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>CUSTOM: C.PERM_1000: Update Territory Visibility</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM_1000: Update Territory Visibility</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_1000_Update_Territory_Visibility</name>
+    </customPermissions>
+</PermissionSet>

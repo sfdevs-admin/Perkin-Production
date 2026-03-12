@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Uses C.PERM 9100 to allow editing Orders. and a validation rule to override the Modify All Records setting</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Orders 9100: Edit</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_9100_Edit_Orders</name>
+    </customPermissions>
+</PermissionSet>

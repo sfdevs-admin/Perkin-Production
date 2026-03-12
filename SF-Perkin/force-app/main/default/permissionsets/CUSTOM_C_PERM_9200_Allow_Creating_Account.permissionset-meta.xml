@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>C.PERM_9200: Allow Creating Account</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 9200: Allow Creating Account</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_9200_Allow_Creating_Account</name>
+    </customPermissions>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Enable Salesforce CMS integration with any endpoint and allow user access to Salesforce CMS data. (HeadlessCMSAccess)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Enable Salesforce CMS Integration 9999x1</label>
+</PermissionSet>

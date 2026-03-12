@@ -1,0 +1,111 @@
+(function ($) {
+    var settings = {
+        barheight: 36,
+        'resizable' : true,
+        'resizeHandles' : 'e,w'
+    }    
+
+    $.fn.scrollabletab = function (options) {
+
+        var ops = $.extend(settings, options);
+
+        var ul = this.find('ul').first();
+        var ulHtmlOld = ul.html();
+        var tabBarWidth = $(this).width()-70;
+        //var tabBarWidth = 150;
+        ul.wrapInner('<div class="fixedContainer" style="height: ' + ops.barheight + 'px; width: ' + tabBarWidth + 'px; overflow: hidden; float: left;"><div class="moveableContainer" style="height: ' + ops.barheight + 'px; width: 5000px; position: relative; left: 0px;"></div></div>');
+        /*ul.append('<div style="width: 20px; float: left; height: ' + (ops.barheight - 2) + 'px; margin-left: 5px; margin-right: 0;overflow:visible;"></div>');
+        var leftArrow = ul.children().last();
+        leftArrow.button({ icons: { secondary: "ui-icon ui-icon-carat-1-w" } });
+        leftArrow.children('.ui-icon-carat-1-w').first().css('left', '2px');  */      
+
+        ul.append('<div class="rightButton" style="width: 20px; float: right; height: ' + (ops.barheight - 6) + 'px; margin-left: 1px; margin-right: 2px;overflow:visible;"></div>');
+        var rightArrow = ul.children().last();
+        rightArrow.button({ icons: { secondary: "ui-icon ui-icon-carat-1-e" } });
+        rightArrow.children('.ui-icon-carat-1-e').first().css('left', '2px');        
+
+        /* ul.prepend('<div style="width: 20px; float: left; height: ' + (ops.barheight - 2) + 'px; margin-left: 1px; margin-right: 2px;overflow:visible;"></div>');
+        var rightArrow1 = ul.children().first();
+        rightArrow1.button({ icons: { secondary: "ui-icon ui-icon-carat-1-e" } });
+        rightArrow1.children('.ui-icon-carat-1-e').first().css('left', '2px');  */
+        
+       ul.prepend('<div class="leftButton" style="width: 20px; float: left; height: ' + (ops.barheight - 6) + 'px; margin-left: 5px; margin-right: 1px;margin-top:1px;overflow:visible;"></div>');
+        var leftArrow1 = ul.children().first();
+        leftArrow1.button({ icons: { secondary: "ui-icon ui-icon-carat-1-w" } });
+        leftArrow1.children('.ui-icon-carat-1-w').first().css('left', '2px');      
+
+         
+        var moveable = ul.find('.moveableContainer').first();
+
+       /* leftArrow.click(function () {
+           leftClick();
+        });*/
+
+        rightArrow.click(function () {
+             rightClick();
+        });
+
+        leftArrow1.click(function () {
+           leftClick();
+        });
+
+        /*rightArrow1.click(function () {
+             rightClick();
+        });*/
+        
+        function rightClick(){
+             
+            var offset = tabBarWidth / 6;
+            var currentPosition = moveable.css('left').replace('px', '') / 1;
+            var tabsRealWidth = 0;
+            ul.find('li').each(function (index, element) {
+                tabsRealWidth += $(element).width();
+                tabsRealWidth += ($(element).css('margin-right').replace('px', '') / 1);
+            });
+
+            tabsRealWidth *= -1;
+
+            if (currentPosition - tabBarWidth > tabsRealWidth) {
+                moveable.stop().animate({ left: currentPosition - offset + 'px' }, 'slow');
+            }
+        }
+        
+        function leftClick(){
+             var offset = tabBarWidth / 6;
+            var currentPosition = moveable.css('left').replace('px', '') / 1;
+
+            if (currentPosition + offset >= 0) {
+                moveable.stop().animate({ left: '0' }, 'slow');
+            }
+            else {
+                moveable.stop().animate({ left: currentPosition + offset + 'px' }, 'slow');
+            }             
+        }
+        // if(o.resizable)
+        //     {
+        //         if(!!$.fn.resizable)
+        //         {
+        //             $tabsWrapper.resizable({
+        //                 minWidth : $tabsWrapper.width(),
+        //                 maxWidth : $tabsWrapper.width()*2,
+        //                 minHeight : $tabsWrapper.height(),
+        //                 maxHeight : $tabsWrapper.height()*2,
+        //                 handles : o.resizeHandles,
+        //                 alsoResize: $tabs,
+        //                 //start : function(){  },
+        //                 resize: function(){
+        //                     $tabs.trigger('resized');
+        //                 }
+        //                 //stop: function(){ $tabs.trigger('scrollToTab',$tabsNav.find('li.ui-tabs-selected')); }
+        //             });
+        //         }
+        //         else
+        //         {
+        //             alert('Error:\nCannot be resizable because "jQuery.resizable" plugin is not available.');
+        //         }
+        //     }
+
+        return this;
+    }; // end of functions
+
+})(jQuery);

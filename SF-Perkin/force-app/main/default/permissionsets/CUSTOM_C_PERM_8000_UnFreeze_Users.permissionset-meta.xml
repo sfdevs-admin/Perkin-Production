@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows unfreezing users as part of S.FLOW using C.PERM_8000: UnFreeze Users</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 8000: UnFreeze Users</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_8000_UnFreeze_Users</name>
+    </customPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.PKI_GBL_User_Frozen__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Reactivation_Comments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Reactivation_UnFreeze_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

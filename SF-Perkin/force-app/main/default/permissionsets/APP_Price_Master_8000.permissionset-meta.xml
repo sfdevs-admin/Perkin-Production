@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used for admin team to manager the incoming price master data</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>APP: Price Master 8000</label>
+    <applicationVisibilities>
+        <application>Price_Master</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <tabSettings>
+        <tab>PRICE_Master__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

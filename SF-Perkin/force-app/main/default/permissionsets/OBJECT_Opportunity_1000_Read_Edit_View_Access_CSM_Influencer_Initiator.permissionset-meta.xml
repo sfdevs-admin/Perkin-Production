@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives Read /Edit/View/Modify Access CSM Influencer and CSM Initiator fields. ITSFDC-3594</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Opportunity 1000: Read /Edit/View Access CSM Influencer/Initiator</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.CSM_Influencer__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.CSM_Initiator__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Opportunity</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.Informatics</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <recordType>Opportunity.PKI_Americas_SPI</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>
