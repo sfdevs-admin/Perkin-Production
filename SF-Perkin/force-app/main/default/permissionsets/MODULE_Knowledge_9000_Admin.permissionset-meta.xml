@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>additional permissions need to create data categories
+Manage Knowledge Article Import/Export
+Manage Salesforce Knowledge</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MODULE: Knowledge: 9000: Admin</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewArchivedArticles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDraftArticles</name>
+    </userPermissions>
+</PermissionSet>

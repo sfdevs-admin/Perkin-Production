@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows user to edit the Territory, regions, and ISO code for a user.
+Uses a custom permission C.PERM_6110 and a V.RULE_USER_002 on the User Object</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: User 6010: Edit Territory, Region, ISO</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_6110_Edit_User_Territory_Region_ISO</name>
+    </customPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.GeographyLevel__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.GeographyValue__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.PKI_GBL_Job_Family__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.SMAX_PS_Sales_Org__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Sales_Region__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Sales_Team__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.at_SalesOffice__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lets users edit the blocked account date</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Account 8000: Block Account Edit</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Account_Blocked_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

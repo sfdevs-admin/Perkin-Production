@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows email notifications to be sent when a user posts an announcement. (SendAnnouncementEmails)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Send announcement emails 2000x1</label>
+</PermissionSet>

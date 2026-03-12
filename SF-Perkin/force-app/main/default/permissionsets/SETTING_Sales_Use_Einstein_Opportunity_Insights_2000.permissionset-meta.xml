@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>See predictions about your deals, reminders to follow up, and updates when key moments occur.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Use Einstein Opportunity Insights 2000</label>
+</PermissionSet>

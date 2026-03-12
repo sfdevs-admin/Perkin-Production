@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Change the sales price on opportunity line items. (EditOppLineItemUnitPrice)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Edit Opportunity Product Sales Price 4000x1</label>
+</PermissionSet>

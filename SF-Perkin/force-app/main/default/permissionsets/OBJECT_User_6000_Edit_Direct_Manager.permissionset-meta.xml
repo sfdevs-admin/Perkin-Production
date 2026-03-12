@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows user to edit the direct manager. Uses a custom permission and a V.RULE on the User Object</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: User 6000: Edit Direct Manager</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_6100_Edit_Direct_Manager</name>
+    </customPermissions>
+</PermissionSet>

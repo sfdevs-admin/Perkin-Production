@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This permission will allow use to see case of &quot;Cloud Operationst&quot; record type and they would be able to change record type to &quot;Cloud Operations&quot;.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Case 1000: R.TYPE: Cloud Operations</label>
+    <recordTypeVisibilities>
+        <recordType>Case.Cloud_Operations</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

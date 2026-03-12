@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access and gauge a customer&#39;s use of a community. Make sure this type of data gathering complies with your company privacy policies. (ViewCustomerSentiment)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View Community 360 4000x1</label>
+</PermissionSet>

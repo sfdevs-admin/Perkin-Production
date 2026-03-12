@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows editing a specific P.BOOK via LWC and not other P.BOOK</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MODULE: Pricebook 4000: Edit INF Pricebook via LWC</label>
+    <classAccesses>
+        <apexClass>EditPriceBookController</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+</PermissionSet>

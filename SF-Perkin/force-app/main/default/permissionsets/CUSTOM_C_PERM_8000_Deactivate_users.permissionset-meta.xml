@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows Deactivating users as part of S.FLOW using C.PERM_8000: Deactivate Users</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 8000: Deactivate users</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_8000_Deactivate_Users</name>
+    </customPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.DeactivationDate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Deactivation_Comments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.Do_Not_Deactivate__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>User.PKI_GBLReason_for_Not_deactivated__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.Reason_for_Deactivating__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows user to manage all the Knowledge Article Import/Export (EditKnowledge; ManageKnowledgeImportExport; ViewArchivedArticles; ViewDraftArticles)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Knowledge): Manage Knowledge Article Import/Export 4000x4</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditKnowledge</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewArchivedArticles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDraftArticles</name>
+    </userPermissions>
+</PermissionSet>

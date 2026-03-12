@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Edit topic names and descriptions. (EditTopics)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Edit Topics 3000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EditTopics</name>
+    </userPermissions>
+</PermissionSet>

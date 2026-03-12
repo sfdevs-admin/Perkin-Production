@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, edit, and delete library permissions in Salesforce CRM Content. (ManageContent)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Content): Manage Content Permissions 4000x1</label>
+</PermissionSet>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gerlinde_and_Lucy_s_2025_Campaigns_List</fullName>
+    <booleanFilter>(1 OR 2) AND 3 AND 4</booleanFilter>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.STATUS</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>Campaign_Leader__c</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>Total_Interactions__c</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>AMOUNT_WON</columns>
+    <columns>CAMPAIGN.ID</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Campaign_Leader__c</field>
+        <operation>equals</operation>
+        <value>Venkata Mattegunta</value>
+    </filters>
+    <filters>
+        <field>Campaign_Leader__c</field>
+        <operation>equals</operation>
+        <value>Rosie Hopper</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>-2025</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>PaidSearch</value>
+    </filters>
+    <label>Gerlinde and Lucy&#39;s 2025 Campaigns List</label>
+</ListView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows user to change the owner of Interaction Records using C.PERM_2510: Interaction - Change Owner</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM_2510: Interaction - Change Owner</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_2510_Interaction_Change_Owner</name>
+    </customPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Interaction__c.Owned_by_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Always use Lightning Experience; removes the Switcher so it&#39;s not possible to switch to Salesforce Classic. (LightningExperienceUser; PreventClassicExperience)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Hide Option to Switch to Salesforce Classic 1000x2</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>LightningExperienceUser</name>
+    </userPermissions>
+</PermissionSet>

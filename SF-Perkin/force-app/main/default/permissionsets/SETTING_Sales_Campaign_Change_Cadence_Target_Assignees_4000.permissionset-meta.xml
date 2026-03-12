@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lets users change target assignees for active cadence targets.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Campaign Change Cadence Target Assignees 4000</label>
+</PermissionSet>

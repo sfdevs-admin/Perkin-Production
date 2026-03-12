@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Trigger the Send Custom Notification action in flows that run in user context, REST API calls, and Apex callouts.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Send Custom Notifications 4000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SendCustomNotifications</name>
+    </userPermissions>
+</PermissionSet>

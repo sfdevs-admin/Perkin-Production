@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This allows a user to see licenses and billing for SFDC licenses. SFDC Management only</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>APP: Your Account 9000</label>
+    <applicationVisibilities>
+        <application>standard__OnlineSales</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+</PermissionSet>

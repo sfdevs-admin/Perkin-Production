@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows full access to reports and dashboards in all other users&#39; private folders (ManagePvtRptsAndDashbds)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Manage All Private Reports and Dashboards 5000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManagePvtRptsAndDashbds</name>
+    </userPermissions>
+</PermissionSet>

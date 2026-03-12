@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use tools in the user interface to manage and provide user support for multi-factor authentication. (DelegatedTwoFactor)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Manage Multi-Factor Authentication in User Interface 5000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DelegatedTwoFactor</name>
+    </userPermissions>
+</PermissionSet>

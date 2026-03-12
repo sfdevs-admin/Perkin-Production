@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Show recommended results on the search results page, and use profile-based search results layouts (AIViewInsightObjects)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View AI Insight Objects 1000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AIViewInsightObjects</name>
+    </userPermissions>
+</PermissionSet>

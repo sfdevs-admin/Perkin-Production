@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Uses C.PERM_8100 to allow users to modify User.fxUserExtraAttributes multi picklist on a user profile/detail page. 
+(Editing the picklist values itself is still done by SFDC IT Admin Team)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 8100: Edit User fxUserExtraAttributes</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_8100_Edit_fxUserExtraAttributes</name>
+    </customPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>User.fxUserExtraAttributes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

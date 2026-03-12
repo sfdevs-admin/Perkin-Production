@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permission set to allow selective users to close Project-Farma opportunities as Closed Won</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>P.SET Project-Farma Closed Won Access</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>Can_Close_as_Closed_Won_Project_Farma</name>
+    </customPermissions>
+</PermissionSet>

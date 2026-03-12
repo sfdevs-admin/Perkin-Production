@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This will allow user to bypass V.RULE of case object.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM_2400: Bypass Case V.RULES</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_2400_Bypass_Case_V_RULES</name>
+    </customPermissions>
+</PermissionSet>

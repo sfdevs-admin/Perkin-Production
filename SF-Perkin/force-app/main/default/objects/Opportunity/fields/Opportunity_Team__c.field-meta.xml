@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Team__c</fullName>
+    <label>Opportunity Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adam Barlow</fullName>
+                <default>false</default>
+                <label>Adam Barlow</label>
+            </value>
+            <value>
+                <fullName>Adam Pfeiffer</fullName>
+                <default>false</default>
+                <label>Adam Pfeiffer</label>
+            </value>
+            <value>
+                <fullName>Allison Cacciatore</fullName>
+                <default>false</default>
+                <label>Allison Cacciatore</label>
+            </value>
+            <value>
+                <fullName>Ally Moore</fullName>
+                <default>false</default>
+                <label>Ally Moore</label>
+            </value>
+            <value>
+                <fullName>Anshul Mangal</fullName>
+                <default>false</default>
+                <label>Anshul Mangal</label>
+            </value>
+            <value>
+                <fullName>Anthony Wickline</fullName>
+                <default>false</default>
+                <label>Anthony Wickline</label>
+            </value>
+            <value>
+                <fullName>Brian Cooper</fullName>
+                <default>false</default>
+                <label>Brian Cooper</label>
+            </value>
+            <value>
+                <fullName>Brian Maschino</fullName>
+                <default>false</default>
+                <label>Brian Maschino</label>
+            </value>
+            <value>
+                <fullName>Brian Salbilla</fullName>
+                <default>false</default>
+                <label>Brian Salbilla</label>
+            </value>
+            <value>
+                <fullName>Christian Hermanas</fullName>
+                <default>false</default>
+                <label>Christian Hermanas</label>
+            </value>
+            <value>
+                <fullName>Cory Proctor</fullName>
+                <default>false</default>
+                <label>Cory Proctor</label>
+            </value>
+            <value>
+                <fullName>Danny Foody</fullName>
+                <default>false</default>
+                <label>Danny Foody</label>
+            </value>
+            <value>
+                <fullName>Ellen Venezia</fullName>
+                <default>false</default>
+                <label>Ellen Venezia</label>
+            </value>
+            <value>
+                <fullName>Evan Bryant</fullName>
+                <default>false</default>
+                <label>Evan Bryant</label>
+            </value>
+            <value>
+                <fullName>George Skillin</fullName>
+                <default>false</default>
+                <label>George Skillin</label>
+            </value>
+            <value>
+                <fullName>Greg Gara</fullName>
+                <default>false</default>
+                <label>Greg Gara</label>
+            </value>
+            <value>
+                <fullName>Jacob Greenwood</fullName>
+                <default>false</default>
+                <label>Jacob Greenwood</label>
+            </value>
+            <value>
+                <fullName>Jenn Clark</fullName>
+                <default>false</default>
+                <label>Jenn Clark</label>
+            </value>
+            <value>
+                <fullName>Jess Porter</fullName>
+                <default>false</default>
+                <label>Jess Porter</label>
+            </value>
+            <value>
+                <fullName>Jim Rice</fullName>
+                <default>false</default>
+                <label>Jim Rice</label>
+            </value>
+            <value>
+                <fullName>Jim Watson</fullName>
+                <default>false</default>
+                <label>Jim Watson</label>
+            </value>
+            <value>
+                <fullName>Joel Gates</fullName>
+                <default>false</default>
+                <label>Joel Gates</label>
+            </value>
+            <value>
+                <fullName>Joe Neroni</fullName>
+                <default>false</default>
+                <label>Joe Neroni</label>
+            </value>
+            <value>
+                <fullName>Josh Hoops</fullName>
+                <default>false</default>
+                <label>Josh Hoops</label>
+            </value>
+            <value>
+                <fullName>Julia Taicsich</fullName>
+                <default>false</default>
+                <label>Julia Taicsich</label>
+            </value>
+            <value>
+                <fullName>Kayla Stanley</fullName>
+                <default>false</default>
+                <label>Kayla Stanley</label>
+            </value>
+            <value>
+                <fullName>Morgan Labbree</fullName>
+                <default>false</default>
+                <label>Morgan Labbree</label>
+            </value>
+            <value>
+                <fullName>Nishit Jain</fullName>
+                <default>false</default>
+                <label>Nishit Jain</label>
+            </value>
+            <value>
+                <fullName>Phil Massey</fullName>
+                <default>false</default>
+                <label>Phil Massey</label>
+            </value>
+            <value>
+                <fullName>Rich Tree</fullName>
+                <default>false</default>
+                <label>Rich Tree</label>
+            </value>
+            <value>
+                <fullName>Sarah Stoll</fullName>
+                <default>false</default>
+                <label>Sarah Stoll</label>
+            </value>
+            <value>
+                <fullName>Scott Hamm</fullName>
+                <default>false</default>
+                <label>Scott Hamm</label>
+            </value>
+            <value>
+                <fullName>Sean Terrett</fullName>
+                <default>false</default>
+                <label>Sean Terrett</label>
+            </value>
+            <value>
+                <fullName>Shelley Preslar</fullName>
+                <default>false</default>
+                <label>Shelley Preslar</label>
+            </value>
+            <value>
+                <fullName>Vanness Harris</fullName>
+                <default>false</default>
+                <label>Vanness Harris</label>
+            </value>
+            <value>
+                <fullName>Dan Lewis</fullName>
+                <default>false</default>
+                <label>Dan Lewis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Replace ui:scroller with native scrolling on webviews. Users experience smoother scrolling. (NativeWebviewScrolling)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Salesforce Mobile App: Native scrolling on webviews 1000x1</label>
+</PermissionSet>

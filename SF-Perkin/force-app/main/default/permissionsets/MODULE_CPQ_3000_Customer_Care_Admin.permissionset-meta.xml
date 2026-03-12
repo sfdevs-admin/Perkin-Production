@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MODULE: CPQ 3000: Customer Care Admin</label>
+    <license>Salesforce</license>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_5000_Bypass_Quote_V_RULE_003</name>
+    </customPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.BD_Customer_Accepted__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__Quote__c.BD_SAP_Integration_Message__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__Quote__c.BD_SAP_Quote_Number__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>SBQQ__Quote__c.BD_Submitted_to_SAP_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>See all factors used by Opportunity Scoring to build scoring models. Scoring models are used to score individual records. Users who can view model factors can sometimes see the object data and object-related data used to build the models, regardless of th</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): View Opportunity Scoring Model Factors 4000</label>
+</PermissionSet>

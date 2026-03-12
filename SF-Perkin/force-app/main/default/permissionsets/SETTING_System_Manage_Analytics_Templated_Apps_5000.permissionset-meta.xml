@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View apps based on available app templates. (ManageTemplatedApp; UseTemplatedApp)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Manage Analytics Templated Apps 5000x2</label>
+</PermissionSet>

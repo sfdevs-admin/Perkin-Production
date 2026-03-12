@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Access to view Data Assessment. Data Assessment provides a summary of the state and quality of the org&#39;s CRM data (ViewDataAssessment)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Access to view Data Assessment 4000x1</label>
+</PermissionSet>

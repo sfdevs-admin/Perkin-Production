@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gives the user ability to remain in Salesforce Classic instead of being switched to Lightning Experience automatically. (LtngPromoReserved01UserPerm)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Remain in Classic 4000x1</label>
+</PermissionSet>

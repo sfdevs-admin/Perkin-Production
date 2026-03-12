@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Partner Relationship Management: Restrict what IP addresses can access in the PRM Portal. (IPRestrictRequests)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Partner Relationship Management): IP Restrict Requests: 9000x1</label>
+</PermissionSet>

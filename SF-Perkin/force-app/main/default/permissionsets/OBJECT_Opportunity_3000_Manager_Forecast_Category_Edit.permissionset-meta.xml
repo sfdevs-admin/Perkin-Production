@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>&#39;Manager Forecast Category&#39; field access. This field provides managers access to override the &#39;Forecast Category&#39; of their subordinates without changing the Stage of the Opportunity .</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Opportunity 3000: Manager Forecast Category Edit</label>
+    <license>Salesforce</license>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Mgr_Forecast_Category__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

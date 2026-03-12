@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>See predictions about your sales team&#39;s opportunities based on past data.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Use Einstein Forecasting 3000</label>
+</PermissionSet>

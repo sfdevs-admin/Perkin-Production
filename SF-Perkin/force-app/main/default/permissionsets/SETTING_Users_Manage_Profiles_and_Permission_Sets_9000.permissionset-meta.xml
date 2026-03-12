@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, edit, and delete profiles and permission sets. (ManageProfilesets)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Users): Manage Profiles and Permission Sets 9000x1</label>
+</PermissionSet>

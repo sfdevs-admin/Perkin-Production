@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow user to export Einstein Discovery stories to Quip. (ShareSmartDataDiscoveryStory; UseSmartDataDiscovery)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Share Einstein Discovery Stories 4000x2</label>
+</PermissionSet>

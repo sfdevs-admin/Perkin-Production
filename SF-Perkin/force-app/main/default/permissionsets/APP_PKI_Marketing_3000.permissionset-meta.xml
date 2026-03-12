@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>APP: PKI Marketing 3000</label>
+    <applicationVisibilities>
+        <application>PerkinElmer_Marketing_CRM</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+</PermissionSet>

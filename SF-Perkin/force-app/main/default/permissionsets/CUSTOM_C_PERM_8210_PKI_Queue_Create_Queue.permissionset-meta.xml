@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows user to create a Queue Group using the PKI Queues</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM_8210: PKI Queue: Create Queue</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_8210_PKI_Queue_Create_Queue</name>
+    </customPermissions>
+</PermissionSet>

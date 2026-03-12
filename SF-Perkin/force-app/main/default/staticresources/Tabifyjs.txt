@@ -1,0 +1,174 @@
+var j$ = jQuery.noConflict();
+            j$("#tabs").hide();
+            function onCompletFunction() {
+                tabComponent.associateRelList();
+            }
+            var tabComponent = {
+                tabDetailList   : tabifyData.tablist,
+                init            : function() {
+                                    this.addListItems();
+                                },
+                hideTabsList    : function() {
+                                    try{
+                                            return removeTabs();
+                                        }catch(e) {
+                                            return [];
+                                        }
+                                    },
+                associateRelList : function() {
+                                    var componentWrapper = '';
+                                    if(tabifyData.asyncLoad == 'true' && tabifyData.chatterLoaded == 'false') {
+                                                componentWrapper = j$('[id$=innerWrapper]');
+                                            }else if(tabifyData.asyncLoad == 'true' && tabifyData.chatterLoaded == 'true'){
+                                                componentWrapper = j$('[id$=dynamicComponentPanelWrapper]').children("iframe").contents();
+                                            } else {
+                                                componentWrapper = j$('[id$=tabifyDetailDiv]');
+                                            }
+                                    try{
+                                        j$("#tabs").find("input[type=button], a").each(function(){
+                                            var attribute, attributeValue = '';
+                                            switch(j$(this).is('a')){
+                                                case true:
+                                                    attribute = 'href';
+                                                    attributeValue = j$(this).attr(attribute);
+                                                    break;
+                                                case false : 
+                                                    attribute = 'onclick';
+                                                    attributeValue = j$(this).attr(attribute);
+                                                    break;
+                                            }
+                                            if(attributeValue!= undefined && attributeValue.indexOf('Tabify_detailRecord')!=0) {
+                                                attributeValue = attributeValue.replace(/%2Fapex%2FTabify_detailRecord%3Fid%3D/g,"%2F");
+                                                attributeValue = attributeValue.replace(/apex%252FTabify_detailRecord%253Fid%253D/g,'');
+                                                attributeValue = attributeValue.replace(/apex\/Tabify_detailRecord?id=/g,'');
+                                                j$(this).attr(attribute,attributeValue);
+                                            }
+                                        });
+                                    }catch(e){
+                                        console.log('Error while updating the links '+ e);
+                                    }
+                                    this.handleDivResize();
+                                    this.hideShowmorelinks();
+                                },
+                addListItems    : function() {
+                                    for(var i=0;i<this.tabDetailList.length;i++){
+                                        if(this.hideTabsList().indexOf(this.tabDetailList[i].Tab_Name__c) != -1) continue;
+                                        var currentObj = this.tabDetailList[i];
+                                        var liItem = j$("<li>",{id: currentObj.Tab_Name__c}).append(
+                                                        j$("<a>",{href: ("#Fragment")}).append(
+                                                            j$("<span>").append(j$("<b>").text(currentObj.Tab_Name__c))
+                                                        )
+                                                    );
+                                            
+                                        	j$("#tabbedList").append(liItem);
+                                        
+                                    }
+                                    
+                                    j$("#initDiv").remove();
+                                    this.removeHiddenTabs();
+                                    if(tabifyData.asyncLoad == 'false'){
+                                        this.hideRelatedList();
+                                    }
+                                    this.initializejQueryTab();
+                                },
+                initializejQueryTab : function() {
+                                        var currentInstance = this;
+                                        j$(function(){
+                                            j$('#tabs')
+                                                .tabs()
+                                                .scrollabletab({
+                                                    'closable':true, //Default false
+                                                    'animationSpeed':50, //Default 100
+                                                    'loadLastTab':true, //Default false
+                                                    'resizable':true, //Default false
+                                                    'resizeHandles':'e,w,se', //Default 'e,s,se'
+                                                    'easing':'easeInOutExpo' //Default 'swing'
+                                                });                                                
+                                                if(tabifyData.beforeLoadFunc != undefined && tabifyData.beforeLoadFunc != ''){
+                                                    try{
+                                                        window[tabifyData.beforeLoadFunc]();
+                                                    }catch (e) {
+                                                        console.log('unable to call the before tab function: '+tabifyData.beforeLoadFunc+'\n Errored with :'+e);
+                                                    }
+                                                }
+                                                j$("#tabs").show();
+                                                j$("#tabifyDetailDiv").show();
+                                            
+                                                if(tabifyData.asyncLoad == 'true' && tabifyData.chatterLoaded == 'false') 
+                                                {
+                                                	ayncLoadRelatedList();
+	                                            }
+	                                            else if(tabifyData.asyncLoad == 'true' && tabifyData.chatterLoaded == 'true')
+	                                            {
+	                                                currentInstance.injectIframe();
+	                                            } 
+	                                            else 
+	                                            {
+	                                                onCompletFunction();
+	                                            }
+                                            
+                                        });
+                                   },
+                hideShowmorelinks : function() {
+                                        j$("div.fewerMore").hide();
+                                        j$("div.pShowMore").each(function() {
+                                            var goToLink = j$(this).children('a:eq(1)');
+                                            //console.log('goToLink' + goToLink);
+                                            j$(this).html('').html(goToLink);
+                                        });
+                                        if(tabifyData.afterLoadFunc != undefined && tabifyData.afterLoadFunc != ''){
+                                            try{
+                                                window[tabifyData.afterLoadFunc]();
+                                            }catch(e) {
+                                                console.log('unable to call the before tab function: '+tabifyData.afterLoadFunc+'\n Errored with :'+e);
+                                            }
+                                        }
+                                    },
+                handleDivResize   : function() {
+                                        var instance = this;
+                                        j$("#sidebarCell a").click(function(){
+                                            setTimeout(function(){
+                                                instance.resize();
+                                            },50);
+                                        });
+                                        j$(window).resize(instance.resize);
+                                    },
+                resize             : function() {
+                                        j$("#tabs").find("li").unwrap().unwrap();
+                                                j$("#tabs").find(".rightButton, .leftButton").remove();
+                                                j$("#tabs").scrollabletab({
+                                                                        'closable':true, //Default false
+                                                                        'animationSpeed':50, //Default 100
+                                                                        'loadLastTab':true, //Default false
+                                                                        'resizable':true, //Default false
+                                                                        'resizeHandles':'e,w,se', //Default 'e,s,se'
+                                                                        'easing':'easeInOutExpo' //Default 'swing'
+                                                                    });
+                                    },
+                removeHiddenTabs  : function() {
+                                        for(var i=0;i<this.tabDetailList.length;i++){
+                                            if(this.hideTabsList().indexOf(this.tabDetailList[i].Tab_Name__c) != -1) {
+                                                var currentObj = this.tabDetailList[i];
+                                                var uniqueId = currentObj.isStandardReletedList__c? "#"+currentObj.UniqueId__c : "#"+currentObj.Custom_Block_Id__c;
+                                                j$(uniqueId).hide();
+                                            }
+                                        }
+                                    },
+                hideRelatedList : function() {
+                                    j$("#tabifyDetailDiv").find(".bRelatedList").hide();
+                                },
+                injectIframe    : function() {
+                                   /* j$("[id$=dynamicComponentPanelWrapper]").append(
+                                        j$("<iframe>",{
+                                            id  : 'injectedIframe',
+                                            src : '/apex/Tabify_detailRecord?id='+tabifyData.recordId,
+                                            style : 'display:none;'
+
+                                        })
+                                        );
+                                    j$("#injectedIframe").load(function(){
+                                        tabComponent.associateRelList();
+                                    });*/
+                                }
+            };
+            tabComponent.init();

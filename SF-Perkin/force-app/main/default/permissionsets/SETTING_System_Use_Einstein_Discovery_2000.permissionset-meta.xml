@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use Einstein Discovery and view the stories that are shared with you. (UseSmartDataDiscovery)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Use Einstein Discovery 2000x1</label>
+</PermissionSet>

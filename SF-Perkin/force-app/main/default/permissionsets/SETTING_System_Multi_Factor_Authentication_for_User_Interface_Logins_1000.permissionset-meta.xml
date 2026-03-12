@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Require users to provide an additional verification method in addition to their username and password when logging in to Salesforce orgs. (ForceTwoFactor)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Multi-Factor Authentication for User Interface Logins 1000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ForceTwoFactor</name>
+    </userPermissions>
+</PermissionSet>

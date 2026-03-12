@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View the App Setup and Administrative Settings pages. (ViewRoles; ViewSetup)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View Setup and Configuration 4000x2</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewSetup</name>
+    </userPermissions>
+</PermissionSet>

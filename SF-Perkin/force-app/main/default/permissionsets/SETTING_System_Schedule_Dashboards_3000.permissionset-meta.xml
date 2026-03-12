@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>System: Schedule when dashboards refresh, and send email notifications that include refreshed dashboards in HTML format. Your organization&#39;s data may be saved and/or processed by third-party services, and Salesforce is not responsible for data users choos</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Schedule Dashboards: 3000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ScheduleJob</name>
+    </userPermissions>
+</PermissionSet>

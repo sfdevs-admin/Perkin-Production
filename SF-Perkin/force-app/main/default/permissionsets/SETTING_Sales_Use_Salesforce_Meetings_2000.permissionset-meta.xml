@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Enhance meetings with tools to help prepare, engage, and follow up.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Use Salesforce Meetings 2000x1</label>
+</PermissionSet>

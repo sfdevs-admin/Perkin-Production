@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View all activity data irrespective of sharing rules. (ActivitiesAccess; ViewAllActivities)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): View All Activities 4000x2</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ActivitiesAccess</name>
+    </userPermissions>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This permission will allow use to see case of &quot;Customer Care - Complaint&quot; record type and they would be able to change record type to &quot;Customer Care - Complaint&quot;.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Case 1000: R.TYPE: Customer Care - Complaint</label>
+    <recordTypeVisibilities>
+        <recordType>Case.Customer_Care_Complaint</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Selecting a Salesforce file is an option when attaching a file. (SelectFilesFromSalesforce)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Select Files from Salesforce 1000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+</PermissionSet>

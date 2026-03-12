@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>P.Set to edit &quot;Netsuite Order link&quot; field on opportunity</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>OBJECT: Opp 4000: Edit Netsuite Order Link</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.Netsuite_Order_Link__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Increases privacy in a private group by hiding the count and names of those who view its posts. (HideReadByList)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Hide the Seen By List 4000x1</label>
+</PermissionSet>

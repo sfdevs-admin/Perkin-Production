@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>View Restriction and Scoping Rules. (ViewRestrictionAndScopingRules)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View Restriction and Scoping Rules 5000x1</label>
+</PermissionSet>

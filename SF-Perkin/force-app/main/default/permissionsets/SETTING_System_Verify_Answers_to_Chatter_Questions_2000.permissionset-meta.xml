@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Mark answers to Chatter questions as verified. (CanVerifyComment)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Verify Answers to Chatter Questions 2000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanVerifyComment</name>
+    </userPermissions>
+</PermissionSet>

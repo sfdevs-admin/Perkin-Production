@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Salesforce Anywhere integration user access (IsotopeCToCUser)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Salesforce Anywhere Integration Access 1000x1</label>
+</PermissionSet>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Delete topics and remove all corresponding topic assignments from feed items. (DeleteTopics)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Delete Topics 4000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>DeleteTopics</name>
+    </userPermissions>
+</PermissionSet>

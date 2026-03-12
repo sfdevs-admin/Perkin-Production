@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow user to create interaction using standard New interaction button (Source: SSE-40 )</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 2530: Create Interaction Using Legacy New Button</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_2530_New_Interaction_Legacy</name>
+    </customPermissions>
+</PermissionSet>

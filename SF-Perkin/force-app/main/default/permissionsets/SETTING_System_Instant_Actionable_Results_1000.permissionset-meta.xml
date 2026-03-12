@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Show instant results and record previews from the global search box (UseAssistantDialog; UseMySearch)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Instant Actionable Results 1000x2</label>
+</PermissionSet>

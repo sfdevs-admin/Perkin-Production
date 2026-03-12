@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allow user to view roles and role hierarchy. (ViewRoles)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): View Roles and Role Hierarchy 3000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewRoles</name>
+    </userPermissions>
+</PermissionSet>

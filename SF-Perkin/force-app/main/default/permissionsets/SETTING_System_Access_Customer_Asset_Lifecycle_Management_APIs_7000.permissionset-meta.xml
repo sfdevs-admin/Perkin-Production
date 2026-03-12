@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Use APIs to manage lifecycle-managed assets.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Access Customer Asset Lifecycle Management APIs 7000</label>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>System: Specify recipients of email notifications from Einstein Analytics dashboard widgets. All recipient email addresses appear in the &quot;to:&quot; field of the emails, so recipients can see each other&#39;s email addresses regardless of User Sharing settings. (Ad</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Notification Emails: 6000x1</label>
+</PermissionSet>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Update Activity Metrics fields for the organization. (EditIQFields)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Sales): Update Activity Metrics Data 4000x1</label>
+</PermissionSet>

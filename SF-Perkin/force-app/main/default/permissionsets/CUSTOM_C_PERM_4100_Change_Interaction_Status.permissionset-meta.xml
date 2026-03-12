@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Allows changing Status of Interaction at any time, for Data Maintainers and Integration only</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM_4100: Change Interaction Status</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_4100_Change_Interaction_Status</name>
+    </customPermissions>
+</PermissionSet>

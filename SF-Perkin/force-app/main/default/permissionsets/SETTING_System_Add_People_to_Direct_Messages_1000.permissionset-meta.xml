@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lets a user add others to direct messages the user is in. (AddDirectMessageMembers)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Add People to Direct Messages 1000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>AddDirectMessageMembers</name>
+    </userPermissions>
+</PermissionSet>

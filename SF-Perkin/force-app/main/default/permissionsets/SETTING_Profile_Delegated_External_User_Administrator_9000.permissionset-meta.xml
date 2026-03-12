@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Enable super user access so that external users in your sites can access more records and data.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Profile): Delegated External User Administrator 9000x0</label>
+</PermissionSet>

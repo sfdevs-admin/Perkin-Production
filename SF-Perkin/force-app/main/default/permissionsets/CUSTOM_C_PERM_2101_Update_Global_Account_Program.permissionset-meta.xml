@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Source : INC0383878 This is used to make &quot;Set Global account Program&quot;  button visible on account object .</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>CUSTOM: C.PERM 2101: Update Global Account Program</label>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>C_PERM_2101_Update_Global_Account_Program</name>
+    </customPermissions>
+</PermissionSet>

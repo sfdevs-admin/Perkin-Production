@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Create, edit, and delete content types in Salesforce CRM Content.. (CustomizeApplication; ManageContentTypes; ManageCustom; ManageTerritories; ManageTranslation; ViewRoles; ViewSetup)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Content): Manage record types and layouts for Files 4000x7</label>
+</PermissionSet>

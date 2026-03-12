@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Let users view draft articles. (ViewDraftArticles)</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (Knowledge): View Draft Articles 2000x1</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewDraftArticles</name>
+    </userPermissions>
+</PermissionSet>

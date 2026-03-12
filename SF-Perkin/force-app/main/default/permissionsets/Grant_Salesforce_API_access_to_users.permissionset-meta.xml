@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This permission set is created to grant API access to connect salesforce with externals apps such as power BI.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Grant Salesforce API access to users</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CanApproveUninstalledApps</name>
+    </userPermissions>
+</PermissionSet>

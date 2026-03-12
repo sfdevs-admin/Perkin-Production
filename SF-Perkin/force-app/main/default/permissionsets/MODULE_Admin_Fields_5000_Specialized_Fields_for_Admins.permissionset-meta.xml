@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>These are used to help administer the platform, these fields would not be for typical end users.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MODULE: Admin Fields 5000: Specialized Fields for Admins</label>
+</PermissionSet>

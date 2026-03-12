@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is uses to maintain the Interaction Assignment Rules and Queues</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>APP: Interactions 4000</label>
+    <applicationVisibilities>
+        <application>Interactions</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+</PermissionSet>

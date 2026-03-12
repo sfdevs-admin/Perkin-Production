@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_All_2025_EVENTs_Campaigns</fullName>
+    <columns>CAMPAIGN.NAME</columns>
+    <columns>CAMPAIGN.START_DATE</columns>
+    <columns>CAMPAIGN.CAMPAIGN_TYPE</columns>
+    <columns>CAMPAIGN.NUM_LEADS</columns>
+    <columns>CAMPAIGN.NUM_WON_OPPORTUNITIES</columns>
+    <columns>AMOUNT_WON</columns>
+    <columns>CAMPAIGN.NUM_OPPORTUNITIES</columns>
+    <columns>AMOUNT_ALL</columns>
+    <columns>CAMPAIGN.BUDGETED_COST</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>2025</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>contains</operation>
+        <value>Event</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>startsWith</operation>
+        <value>REG,APP</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>7/28/2025 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CAMPAIGN.NAME</field>
+        <operation>notContain</operation>
+        <value>GCN</value>
+    </filters>
+    <label>29Jul2025 onwards EVENTs Campaigns</label>
+</ListView>

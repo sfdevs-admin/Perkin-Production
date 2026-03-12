@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>SETTING: (System): Omni Channel Supervisor Access</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SETTING: (System): Omni Channel Supervisor Access</label>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ServiceResource</object>
+        <viewAllFields>false</viewAllFields>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <tabSettings>
+        <tab>standard-OmniSupervisorLightning</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>
